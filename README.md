@@ -18,8 +18,8 @@
 - `cd docker-spark-hive-ipython`
 - `docker build .`  此步驟將會開始建立docker images
 - `docker images`   確認新建立的images id (一個英數組合)
-- `docker tag <images id> pyspark:1.4.1`
-- `docker run -d -p 8888:8888 -p 4040:4040 --name pyspark pyspark:1.4.1`
+- `docker tag <images id> docker-spark-hive-ipython:1.4.1`
+- `docker run -d -p 8888:8888 -p 4040:4040 --name pyspark docker-spark-hive-ipython:1.4.1`
 
 # 進入ipython
 
