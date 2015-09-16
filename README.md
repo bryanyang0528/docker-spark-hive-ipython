@@ -10,6 +10,11 @@
 - Linux環境餐請參考：(https://docs.docker.com/linux/step_one/)
 - Mac環境請參考：(https://docs.docker.com/installation/mac/)
 
+# 拉取Docker Images
+
+- `docker pull bryanyang0528/docker-spark-hive-ipython`
+(拉取成功後就不用再自行Build Images)
+
 # 建立Docker Images
 
 - 請確認您的電腦上已經安裝git
