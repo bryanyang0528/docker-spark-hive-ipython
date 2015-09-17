@@ -7,12 +7,12 @@
 
 # Docker安裝教學
 
-- Linux環境餐請參考：(https://docs.docker.com/linux/step_one/)
-- Mac環境請參考：(https://docs.docker.com/installation/mac/)
+- Linux環境餐請參考：https://docs.docker.com/linux/step_one/
+- Mac環境請參考：https://docs.docker.com/installation/mac/
   - 可以安裝boot2docker
-  - *推薦先用VMWARE建立純linux環境後再安裝docker*
+  - **推薦先用VMWARE建立純linux環境後再安裝docker**
 
-## 使用boot2docker特別注意
+# 使用boot2docker特別注意
 因為預設的記憶體只有2G，本包可能需要至少**4G**的記憶體，若執行時遇到記憶體不足的問題，請按照下列步驟修改．
 - `vim ~/.boot2docker/profile`
 - 在檔案中加入 Memory = 4096
