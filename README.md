@@ -1,9 +1,12 @@
 # docker-spark-hive-ipython
 # Introduction
 
-感謝各位參加Hadoop Conference 2015
-為了方便各位實作，將協助各位使用docker在本機上建立spark教學環境．
-較熟悉Docker的朋友可以直接跳過這段．
+- Apache Hive (trunk version)
+- Apache Tez 0.5.2
+- Apache Hadoop 2.5.2
+- PostgreSQL 9.3 (Hive metastore backend)
+- Apach Spark 1.4.1
+- Jupyter
 
 # Install Docker
 
@@ -48,9 +51,9 @@ You can change the default memory setting in following way:
 
 - `docker run -d -p 8888:8888 -p 4040:4040 --name pyspark bryanyang0528/docker-spark-hive-ipython`
 
-# Enter the Jupyter
+# Launch the Jupyter
 
 - linux: Type the web address `http://localhost:8888` in any browser. The link of Spark UI is `http://localhost:4040`.
 - Mac:(for boot2docker) In your terminal, press `boot2docker ip` confirm the ip address of boot2docker，the type `http://<boot2docker ip>:8888`in the browser.
 
-#### SparkContext(as **sc**) and SqlContext(as **sqlContext**) will generate automatically when you open a new notebook. 
+#### SparkContext(as **sc**) and SqlContext(as **sqlContext**) will launch automatically when you open a notebook. 
