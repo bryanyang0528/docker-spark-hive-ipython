@@ -51,4 +51,4 @@
 - linux: 直接在瀏覽器輸入`http://localhost:8888` , Spark的UI在`http://localhost:4040`
 - Mac: 請先在terminal中輸入 `boot2docker ip` 確認ip位置，再到瀏覽器中輸入`http://<boot2docker ip>:8888`
 
-
+#### SparkContext(as sc) and SqlContext(as sqlContext) will launch automatically when you open a notebook.
